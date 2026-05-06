@@ -7,13 +7,14 @@ user_input = st.text_input("Enter your prompt:")
 
 if st.button("Generate"):
     st.write(f"Generating video for: {user_input}")
-    import streamlit as st
+
+import streamlit as st
 from groq import Groq
 
 st.title("AI Chat App 🤖")
 
-client = Groq(api_key=st.secrets["GROQ_xT65mzBHibbmhFRwLRDUWGdyb3FYAbbVlrDtqiv78X5RcyJ1a7s9"])
-
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+GROQ_API_KEY = "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"
 user_input = st.text_input("Ask something:")
 
 if st.button("Ask"):
