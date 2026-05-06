@@ -13,7 +13,7 @@ from groq import Groq
 
 st.title("AI Chat App 🤖")
 
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])GROQ_API_KEY = "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"
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 user_input = st.text_input("Ask something:")
 
