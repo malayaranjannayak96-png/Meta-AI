@@ -1,4 +1,4 @@
-                    import streamlit as st
+import streamlit as st
 
 st.title("My AI App is Working 🚀")
 
