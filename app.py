@@ -12,7 +12,9 @@ from groq import Groq
 
 st.title("AI Chat App 🤖")
 
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+client=Groq(api_key=st.secrets["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"])
+
+
 
 user_input = st.text_input("Ask something:")
 
@@ -23,3 +25,4 @@ if st.button("Ask"):
             model="llama3-8b-8192"
         )
         st.write(response.choices[0].message.content)
+        
