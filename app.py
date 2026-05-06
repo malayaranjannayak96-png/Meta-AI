@@ -7,7 +7,7 @@ import edge_tts
 import asyncio
 import tempfile
 
-from moviepy.editor import VideoFileClip, AudioFileClip, CompositeAudioClip
+from moviepy.editor import VideoFileClip
 
 st.set_page_config(page_title="Apna Meta AI", page_icon="🎬")
 st.title("Apna Meta AI + Video + Voice + Music 🚀")
